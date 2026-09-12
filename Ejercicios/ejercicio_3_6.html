@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Ejercicio 3.6</title></head>
+<body>
+
+  <h2>Formulario de Registro</h2>
+  <form method="post" action="#">
+    <p>
+      <label for="nombre">Primer Nombre:</label>
+      <input type="text" id="nombre" required />
+    </p>
+    <p>
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" required />
+    </p>
+    <p>
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" required />
+    </p>
+
+    <details>
+      <summary>Encuesta opcional</summary>
+      <p>
+        <label for="anio">¿En qué año de la universidad te encuentras?</label>
+        <select id="anio">
+          <option value="1">Primer año</option>
+          <option value="2">Segundo año</option>
+          <option value="3">Tercer año</option>
+          <option value="4">Cuarto año o superior</option>
+        </select>
+      </p>
+    </details>
+
+    <p><input type="submit" value="Registrar" /></p>
+  </form>
+</body>
+<p><a href="../index.html" style="padding: 8px 12px; background: #7f8c8d; color: white; text-decoration: none; border-radius: 4px;">&larr; Volver al Índice Principal</a></p>
+<hr>
+</html>
